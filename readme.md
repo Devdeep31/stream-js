@@ -27,7 +27,7 @@ yarn add @devdeep31/stream
 ### Basic Usage
 
 ```typescript
-import { stream } from 'custom-stream-ts';
+import { stream } from 'devdeep31/stream';
 
 const result = stream([1, 2, 3, 4, 5])
   .filter(x => x % 2 === 0)  // [2, 4]
@@ -40,7 +40,7 @@ console.log(result); // [4, 8]
 ### Using the Stream Class Directly
 
 ```typescript
-import { Stream } from 'custom-stream-ts';
+import { stream } from 'devdeep31/stream';
 
 const result = Stream.from([1, 2, 3])
   .map(x => x + 1)
@@ -84,7 +84,7 @@ const result = Stream.from([1, 2, 3])
 ### Chaining Multiple Operations
 
 ```typescript
-import { stream } from 'custom-stream-ts';
+import { stream } from 'devdeep31/stream';
 
 const users = [
   { id: 1, name: 'Alice', age: 25 },
