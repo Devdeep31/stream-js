@@ -17,9 +17,9 @@ A Java-inspired Stream API implementation for TypeScript with lazy evaluation an
 ## Installation
 
 ```bash
-npm install custom-stream-ts
+npm install @devdeep31/stream
 # or
-yarn add custom-stream-ts
+yarn add @devdeep31/stream
 ```
 
 ## Usage
